@@ -1,0 +1,10 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+provider: NCSE Open Data
+providerId: opendata-ncse-ie
+created: '2026-06-07'
+modified: '2026-06-07'
+reconciled: false
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

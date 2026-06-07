@@ -1,0 +1,57 @@
+aid: opendata-ncse-ie
+name: NCSE Open Data
+description: >-
+  NCSE Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 70 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata-ncse-ie/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Government Agency
+  - Ireland
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata-ncse-ie:catalog
+    name: NCSE Open Data CKAN Action API
+    description: >-
+      CKAN Action API for NCSE Open Data, ~70 datasets. Base URL https://opendata.ncse.ie/api/3/action/.
+    humanURL: https://opendata.ncse.ie
+    baseURL: https://opendata.ncse.ie/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://opendata.ncse.ie
+      - type: x-api-endpoint
+        url: https://opendata.ncse.ie/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.14'
+common:
+  - type: Website
+    url: https://opendata.ncse.ie
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata-ncse-ie-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata-ncse-ie-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata-ncse-ie-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
